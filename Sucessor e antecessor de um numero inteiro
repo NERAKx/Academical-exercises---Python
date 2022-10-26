@@ -1,0 +1,7 @@
+print ('======= Numero, Sucessor e Antecessor=======')
+
+numero = int(input('Digite um numero: '))
+sucessor = numero + 1
+antecessor = numero - 1
+
+print ('Voce digitou o numero {}. O sucessor deste número é {} e o antecessor é {}.' . format (numero,sucessor,antecessor))
