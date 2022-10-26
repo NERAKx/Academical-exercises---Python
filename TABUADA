@@ -1,0 +1,7 @@
+print ('======TABUADA======')
+
+num = int(input('Informe um numero: '))
+multiplicador = int(input('Infome o multiplicador: '))
+multiplicacao= num * multiplicador
+
+print  (' {} x {} é {}.' . format (num, multiplicador, multiplicacao))
