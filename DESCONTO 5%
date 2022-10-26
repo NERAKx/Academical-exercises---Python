@@ -1,0 +1,6 @@
+print ('======DESCONTO======')
+
+produto = float(input('Informe o valor do produto R$: '))
+desconto = produto - (produto * 5 /100)
+
+print ('Parabens! Voce ganhou 5% de desconto na sua compra. O valor que voce ira pagar é de R$  {}.' . format (desconto))
