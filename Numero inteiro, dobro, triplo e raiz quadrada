@@ -1,0 +1,8 @@
+print ('====== Numero, Dobro, Triplo e Raiz Quadrada ======')
+
+num = int(input('Digite um numero: '))
+dobro = num * 2
+triplo = num * 3
+rq = num **2
+
+print (' O numero que voce digitou é: {}  \n O dobro dele é: {} \n O triplo é: {} \n E a raiz quadrada é {}.' . format (num, dobro,triplo,rq))
